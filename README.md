@@ -1,5 +1,5 @@
 # SBMonitor
-a web monitor that scrapes a website and sends the differences to a telegram bot.
+a web monitor that scrapes a website for its info, filters the differences and sends them to a telegram bot.
 
 this bot also uses nordVPN API to assure that you're safe pushing limitless requests
 to websites so you can avoid being flagged and blocked. so make sure that you download
