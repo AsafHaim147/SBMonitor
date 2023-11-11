@@ -7,7 +7,7 @@ nordVPN desktop and log in or delete those lines if your not interested in using
 
 this scraper parses information using BS4. some websites are familiar with this 
 parser and will block your attempts. for those occasions I also made a scraper that's 
-based on selenium chromedriver *add link* so make sure to check it out :)
+based on selenium chromedriver (https://github.com/AsafHaim147/WeidianScrape) so make sure to check it out :)
 
 Step by step guide:
 1. make sure you have python and pip installed and working on your machine.
@@ -19,8 +19,6 @@ Step by step guide:
 7. you're ready! but, one last thing, how can you choose exactly what the bot will send on telegram?
    the function GetShoeDict will use BS4 to extract a specific HTML tag, filter the elements you want
    and add them to a dict so they can be later saved on your assets.json file.
-   I recommend using my example to understand how this function works.
-   I added the original link and db so you can reverse engineer it and fully understand the function. 
    
 
    
